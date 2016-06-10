@@ -33,9 +33,13 @@ if you [use vim + vundle](https://github.com/gmarik/vundle)
     :PluginInstall
 
 
-How to use it
--------------
+How to use
+----------
 
 To change the colorscheme in your `.vimrc`:
 
+    " Airline theme
+    let g:airline_theme = "edocx"
+    
+    " Vim colorscheme
     colorscheme xcode-default
