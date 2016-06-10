@@ -51,7 +51,7 @@ hi Statement    ctermfg=127
 hi Keyword      ctermfg=127
 hi PreProc      ctermfg=006
 hi Number       ctermfg=20
-hi Special      ctermfg=60
+hi Special      ctermfg=127
 hi Search       cterm=underline ctermbg=228 ctermfg=236
 hi Delimiter    ctermfg=91
 hi parens       ctermfg=0
