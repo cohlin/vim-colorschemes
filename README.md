@@ -6,7 +6,7 @@ Vim themes
 ------------
 
 - **xcode-default** *(fits airline theme: **edocx**)*
-- A theme reminiscent of xcode default theme
+    - A theme reminiscent of xcode default theme
 
 Airline themes
 ------------
@@ -24,7 +24,7 @@ Basic install
 if you [use vim + pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 
     cd ~/.vim
-    git submodule add https://github.com/cohlin/vim-colorschemes.git bundle/colorschemes
+    git submodule add https://github.com/cohlin/vim-colorschemes.git bundle/vim-colorschemes
 
 if you [use vim + vundle](https://github.com/gmarik/vundle)
 
@@ -33,9 +33,13 @@ if you [use vim + vundle](https://github.com/gmarik/vundle)
     :PluginInstall
 
 
-How to use it
--------------
+How to use
+----------
 
 To change the colorscheme in your `.vimrc`:
 
+    " Airline theme
+    let g:airline_theme = "edocx"
+    
+    " Vim colorscheme
     colorscheme xcode-default
