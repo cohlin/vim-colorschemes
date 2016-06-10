@@ -6,7 +6,7 @@ Vim themes
 ------------
 
 - **xcode-default** *(fits airline theme: **edocx**)*
-- A theme reminiscent of xcode default theme
+    - A theme reminiscent of xcode default theme
 
 Airline themes
 ------------
