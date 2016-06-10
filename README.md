@@ -1,5 +1,6 @@
 # Vim Colorschemes
 
+- Now only support for term no GUI.
 - Your terminal must support 256color (like [iterm2](https://www.iterm2.com/))
 
 Vim themes
