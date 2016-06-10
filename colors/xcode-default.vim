@@ -81,6 +81,9 @@ hi link at                  pythonDecorator
 hi javaScriptReserved ctermfg=127
 hi javaScriptStringS ctermfg=020
 hi javaScriptNumber ctermfg=020
+hi javaScriptFuncArg ctermfg=030
+hi javaScriptBlock ctermfg=030
+
 
 " HTML
 hi htmlArg ctermfg=030
