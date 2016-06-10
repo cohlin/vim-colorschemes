@@ -28,7 +28,7 @@ endif
 hi Cursor       ctermfg=016 ctermbg=016
 hi Normal       ctermfg=016 ctermbg=015
 hi NonText      ctermfg=015 ctermbg=015
-hi LineNr       ctermfg=241 ctermbg=249
+hi LineNr       ctermfg=241 ctermbg=NONE
 hi StatusLine   ctermfg=249 ctermbg=238 
 hi StatusLineNC ctermfg=241 ctermbg=249
 hi VertSplit    ctermfg=255 ctermbg=255       " Vertical Split Line
