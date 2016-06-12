@@ -2,9 +2,15 @@
 
 - Your terminal must support 256color (like [iterm2](https://www.iterm2.com/))
 
-Screenshots
------------
+
+Screenshot - py-darcula
+-----------------------
+
 ![alt py-darcula](https://github.com/cohlin/vim-colorschemes/raw/master/images/py-darcula.png "py-darcula")
+
+Screenshot - xcode-default
+--------------------------
+
 ![alt xcode-default](https://github.com/cohlin/vim-colorschemes/raw/master/images/xcode-default.png "xcode-default")
 
 Vim colorschemes
@@ -46,10 +52,20 @@ if you [use vim + vundle](https://github.com/gmarik/vundle)
 How to use
 ----------
 
-To change the colorscheme in your `.vimrc`:
+Change the colorscheme in your `.vimrc`:
+
+with **py-darcula** theme:
 
     " Airline theme
     let g:airline_theme = "darcula"
     
     " Vim colorscheme
     colorscheme py-darcula
+    
+with **xcode-default** theme:
+
+    " Airline theme
+    let g:airline_theme = "edocx"
+    
+    " Vim colorscheme
+    colorscheme xcode-default
