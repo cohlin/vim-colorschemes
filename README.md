@@ -5,11 +5,14 @@
 Vim themes
 ------------
 
-- **xcode-default** *(fits airline theme: edocx)*
-    - A theme reminiscent of xcode default theme
-    - ![alt xcode-default](https://github.com/cohlin/vim-colorschemes/raw/master/images/xcode-default.png "xcode-default")
 - **py-darcula** *(fits airline theme: darcula)*
     - A theme reminiscent of pyCharm darcula theme
+    ![alt py-darcula](https://github.com/cohlin/vim-colorschemes/raw/master/images/py-darcula.png "py-darcula")
+
+- **xcode-default** *(fits airline theme: edocx)*
+    - A theme reminiscent of xcode default theme
+    ![alt xcode-default](https://github.com/cohlin/vim-colorschemes/raw/master/images/xcode-default.png "xcode-default")
+
 
 Airline themes
 ------------
