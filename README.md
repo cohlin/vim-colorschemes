@@ -1,18 +1,20 @@
 # Vim Colorschemes
 
-- Only support for term no GUI.
 - Your terminal must support 256color (like [iterm2](https://www.iterm2.com/))
 
 Vim themes
 ------------
 
-- **xcode-default** *(fits airline theme: **edocx**)*
+- **xcode-default** *(fits airline theme: edocx)*
     - A theme reminiscent of xcode default theme
+- **py-darcula** *(fits airline theme: darcula)*
+    - A theme reminiscent of pyCharm darcula theme
 
 Airline themes
 ------------
 
-- **edocx** *(fits vim colorscheme: **xcode-default**)*
+- **edocx** *(fits vim colorscheme: xcode-default)*
+- **darcula** *(fits vim colorscheme: py-darcula)*
 
 Installation
 ------------
@@ -40,7 +42,7 @@ How to use
 To change the colorscheme in your `.vimrc`:
 
     " Airline theme
-    let g:airline_theme = "edocx"
+    let g:airline_theme = "darcula"
     
     " Vim colorscheme
-    colorscheme xcode-default
+    colorscheme py-darcula
