@@ -21,7 +21,7 @@ if version >= 700
   hi CursorColumn ctermbg=236
   hi MatchParen   cterm=bold ctermfg=255 ctermbg=235
   hi Pmenu        ctermfg=249 ctermbg=238
-  hi PmenuSel     ctermfg=016 ctermbg=126
+  hi PmenuSel     ctermfg=255 ctermbg=239
 endif
 
 " General colours
@@ -76,18 +76,21 @@ hi pythonQuotes             ctermfg=021
 hi docstring                ctermfg=160
 
 
-syn keyword pythonBoolean     True False
-syn keyword pythonStatement   as nonlocal None
-syn keyword pythonInstances   self cls
-syn match pythonStatement /,/
-syn match docstring /"""\_.\{-}"""/
+autocmd Filetype python call SetColors()
+function SetColors()
+    syn keyword pythonBoolean     True False
+    syn keyword pythonStatement   as nonlocal None
+    syn keyword pythonInstances   self cls
+    syn match pythonStatement /,/
+    syn match docstring /"""\_.\{-}"""/
+endfunction
 
 " Javascript
 hi javaScriptReserved ctermfg=127
 hi javaScriptStringS ctermfg=020
 hi javaScriptNumber ctermfg=020
 hi javaScriptFuncArg ctermfg=030
-hi javaScriptBlock ctermfg=030
+" hi javaScriptBlock ctermfg=030
 
 
 " HTML

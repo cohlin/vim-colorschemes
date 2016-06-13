@@ -66,11 +66,14 @@ hi pythonBoolean           cterm=bold      ctermfg=172  ctermbg=NONE gui=bold   
 hi pythonStatement         cterm=bold      ctermfg=172  ctermbg=NONE gui=bold    guifg=#d78700 guibg=NONE
 hi docstring               cterm=NONE      ctermfg=71   ctermbg=NONE gui=NONE    guifg=#5faf5f guibg=NONE
 
-syn keyword pythonBoolean     True False
-syn keyword pythonStatement   as nonlocal None
-syn keyword pythonInstances   self cls
-syn match pythonStatement /,/
-syn match docstring /"""\_.\{-}"""/
+autocmd Filetype python call SetColors()
+function SetColors()
+    syn keyword pythonBoolean     True False
+    syn keyword pythonStatement   as nonlocal None
+    syn keyword pythonInstances   self cls
+    syn match pythonStatement /,/
+    syn match docstring /"""\_.\{-}"""/
+endfunction
 
 " Javascript
 hi javaScriptStringS        cterm=NONE     ctermfg=065  ctermbg=NONE gui=NONE    guifg=#6a8759 guibg=NONE
