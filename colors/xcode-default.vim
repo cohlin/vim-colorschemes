@@ -19,7 +19,7 @@ let colors_name = "xcode default"
 if version >= 700
   hi CursorLine   cterm=NONE ctermbg=NONE
   hi CursorColumn ctermbg=236
-  hi MatchParen   ctermfg=016 ctermbg=NONE
+  hi MatchParen   cterm=bold ctermfg=255 ctermbg=235
   hi Pmenu        ctermfg=249 ctermbg=238
   hi PmenuSel     ctermfg=016 ctermbg=126
 endif
@@ -71,11 +71,16 @@ hi pythonException          ctermfg=127
 hi pythonBuiltinConstant    ctermfg=127
 hi pythonBoolean            ctermfg=127
 hi pythonAttribute          ctermfg=130
-hi pythonString             ctermfg=124
-hi pythonQuotes             ctermfg=124
-hi link docstring           Comment
-hi link at                  pythonDecorator
+hi pythonString             ctermfg=021
+hi pythonQuotes             ctermfg=021
+hi docstring                ctermfg=160
 
+
+syn keyword pythonBoolean     True False
+syn keyword pythonStatement   as nonlocal None
+syn keyword pythonInstances   self cls
+syn match pythonStatement /,/
+syn match docstring /"""\_.\{-}"""/
 
 " Javascript
 hi javaScriptReserved ctermfg=127
