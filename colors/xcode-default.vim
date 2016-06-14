@@ -57,9 +57,10 @@ hi Delimiter    ctermfg=91
 hi parens       ctermfg=016
 
 " Python
-hi pythonBuiltinFunc        ctermfg=127  " Builtin function in python
-hi pythonBuiltinObj         ctermfg=030  " Builtin function in python
-hi pythonCustomFunc         ctermfg=127  " Function calls in Python
+hi pythonBuiltin            ctermfg=127
+hi pythonBuiltinFunc        ctermfg=127
+hi pythonBuiltinObj         ctermfg=030
+hi pythonCustomFunc         ctermfg=127
 hi pythonDecorator          ctermfg=055
 hi pythonInclude            ctermfg=127  " Python imports, etc
 hi pythonInstances          ctermfg=127  
