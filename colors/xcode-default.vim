@@ -88,7 +88,11 @@ endfunction
 " Javascript
 hi javaScriptReserved ctermfg=126
 hi javaScriptNumber ctermfg=020
-hi javaScriptFuncArg ctermfg=030
+hi javaScriptFuncArg ctermfg=055
+hi javascriptBlock ctermfg=030
+hi javascriptIdentifier ctermfg=126
+hi javascriptBOMHistoryProp ctermfg=016
+hi javascriptObjectLabel ctermfg=016
 
 
 " HTML
