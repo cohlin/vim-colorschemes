@@ -1,6 +1,6 @@
 # Vim Colorschemes
 
-- Your terminal must support 256color (like [iterm2](https://www.iterm2.com/))
+- Your terminal must support 256color ([iterm2](https://www.iterm2.com/))
 
 
 Screenshot - py-darcula
