@@ -39,12 +39,12 @@ hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=124
 
 " Syntax highlighting
-hi Comment      ctermfg=28
-hi Todo         ctermfg=9 
+hi Comment      ctermfg=022
+hi Todo         ctermfg=9
 hi Constant     ctermfg=126
-hi String       ctermfg=160
+hi String       ctermfg=124
 hi Identifier   ctermfg=126
-hi Function     ctermfg=016
+hi Function     ctermfg=053
 hi Type         ctermfg=055
 hi Statement    ctermfg=126
 hi Keyword      ctermfg=126
