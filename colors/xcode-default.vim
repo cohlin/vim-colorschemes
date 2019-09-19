@@ -25,7 +25,7 @@ endif
 
 " General colours
 hi Cursor       ctermfg=016 ctermbg=016
-hi Normal       ctermfg=016 ctermbg=231
+hi Normal       ctermfg=0 ctermbg=015
 hi NonText      ctermfg=231 ctermbg=231
 hi LineNr       ctermfg=241 ctermbg=NONE
 hi StatusLine   ctermfg=249 ctermbg=238 
@@ -70,7 +70,7 @@ hi pythonOperator           ctermfg=126
 hi pythonException          ctermfg=126
 hi pythonBuiltinConstant    ctermfg=126
 hi pythonBoolean            ctermfg=126
-hi pythonAttribute          ctermfg=130
+hi pythonAttribute          ctermfg=137
 hi pythonString             ctermfg=021
 hi pythonQuotes             ctermfg=021
 hi docstring                ctermfg=160
@@ -83,6 +83,7 @@ function SetColors()
     syn keyword pythonInstances   self cls
     syn match pythonStatement /,/
     syn match docstring /"""\_.\{-}"""/
+    syn match pythonAttribute "\.[a-zA-Z_]\+("
 endfunction
 
 " Javascript
