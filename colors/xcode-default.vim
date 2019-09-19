@@ -27,16 +27,17 @@ endif
 hi Cursor       ctermfg=016 ctermbg=016
 hi Normal       ctermfg=0 ctermbg=015
 hi NonText      ctermfg=231 ctermbg=231
-hi LineNr       ctermfg=241 ctermbg=NONE
+hi LineNr       ctermfg=256 ctermbg=NONE
 hi StatusLine   ctermfg=249 ctermbg=238 
 hi StatusLineNC ctermfg=241 ctermbg=249
 hi VertSplit    ctermfg=255 ctermbg=255       " Vertical Split Line
 hi Folded       ctermbg=238 ctermfg=248
 hi FoldColumn   cterm=NONE ctermbg=NONE
 hi Title        ctermfg=016 
-hi Visual       ctermbg=187
+hi Visual       ctermfg=236   ctermbg=180
 hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=124
+hi cursorline   ctermbg=230
 
 " Syntax highlighting
 hi Comment      ctermfg=022
@@ -62,7 +63,7 @@ hi pythonBuiltinObj         ctermfg=030
 hi pythonCustomFunc         ctermfg=126
 hi pythonDecorator          ctermfg=055
 hi pythonInclude            ctermfg=126  " Python imports, etc
-hi pythonInstances          ctermfg=126  
+hi pythonInstances          ctermfg=126 
 hi pythonStatement          ctermfg=126
 hi pythonConditional        ctermfg=126
 hi pythonRepeat	            ctermfg=126
@@ -81,9 +82,7 @@ function SetColors()
     syn keyword pythonBoolean     True False
     syn keyword pythonStatement   as nonlocal None
     syn keyword pythonInstances   self cls
-    syn match pythonStatement /,/
     syn match docstring /"""\_.\{-}"""/
-    syn match pythonAttribute "\.[a-zA-Z_]\+("
 endfunction
 
 " Javascript
