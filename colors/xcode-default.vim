@@ -18,6 +18,7 @@ let colors_name = "xcode default"
 if version >= 700
   hi cursorline   cterm=none ctermbg=255 ctermfg=none
   hi CursorColumn ctermbg=236
+  hi CursorLineNr ctermfg=0
   hi MatchParen   cterm=NONE  ctermfg=016 ctermbg=226
   hi Pmenu        ctermfg=016 ctermbg=255
   hi PmenuSel     ctermfg=020 ctermbg=253
