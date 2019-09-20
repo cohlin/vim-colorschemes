@@ -16,7 +16,6 @@ let colors_name = "xcode default"
   
 " Vim >= 7.0 specific colours
 if version >= 700
-  hi CursorLine   cterm=NONE ctermfg=NONE ctermbg=NONE
   hi CursorColumn ctermbg=236
   hi MatchParen   cterm=NONE  ctermfg=016 ctermbg=226
   hi Pmenu        ctermfg=016 ctermbg=255
@@ -27,17 +26,17 @@ endif
 hi Cursor       ctermfg=016 ctermbg=016
 hi Normal       ctermfg=0 ctermbg=015
 hi NonText      ctermfg=231 ctermbg=231
-hi LineNr       ctermfg=256 ctermbg=NONE
-hi StatusLine   ctermfg=249 ctermbg=238 
+hi LineNr       ctermfg=245 ctermbg=none
+hi StatusLine   ctermfg=249 ctermbg=238
 hi StatusLineNC ctermfg=241 ctermbg=249
 hi VertSplit    ctermfg=255 ctermbg=255       " Vertical Split Line
 hi Folded       ctermbg=238 ctermfg=248
 hi FoldColumn   cterm=NONE ctermbg=NONE
-hi Title        ctermfg=016 
-hi Visual       ctermfg=236   ctermbg=180
+hi Title        ctermfg=016
+hi Visual       ctermfg=none   ctermbg=223
 hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=124
-hi cursorline   ctermbg=230
+hi cursorline   ctermbg=255 ctermfg=none
 
 " Syntax highlighting
 hi Comment      ctermfg=022
@@ -55,6 +54,7 @@ hi Special      ctermfg=126
 hi Search       cterm=underline ctermbg=228 ctermfg=236
 hi Delimiter    ctermfg=126
 hi parens       ctermfg=016
+
 
 " Python
 hi pythonBuiltin            ctermfg=126
