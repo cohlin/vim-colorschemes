@@ -18,7 +18,7 @@ let colors_name = "xcode default"
 if version >= 700
   hi cursorline   cterm=none  ctermbg=255   ctermfg=none  guibg=#ebe7e3 guifg=none
   hi CursorColumn ctermbg=236 guibg=none    guifg=none
-  hi CursorLineNr ctermbg=236 guibg=#ebe7e3 guifg=#000
+  hi CursorLineNr ctermbg=236 gui=none guibg=#ebe7e3 guifg=#000
   hi MatchParen   cterm=NONE  ctermfg=0     ctermbg=220   guibg=#fffa5c guifg=#342727
   hi Pmenu        ctermfg=016 ctermbg=255   guibg=#f8f8f8 guifg=#000
   hi PmenuSel     ctermfg=016 ctermbg=253   guibg=#dadada guifg=#000
@@ -45,7 +45,7 @@ hi Todo         ctermfg=none ctermbg=none  guibg=none guifg=none
 hi Constant     ctermfg=126  guibg=none    guifg=#af0087
 hi String       ctermfg=124  guibg=none    guifg=#990000
 hi Identifier   ctermfg=126  guibg=none guifg=#af0087
-hi Function     ctermfg=0  guibg=none guifg=#000
+hi Function     ctermfg=0  guibg=none guifg=#000000
 hi Type         ctermfg=055  guibg=none guifg=#5f00af
 hi Statement    ctermfg=126  guibg=none guifg=#af0087
 hi Keyword      ctermfg=126  guibg=none guifg=#af0087
@@ -54,7 +54,8 @@ hi Number       ctermfg=20   guibg=none guifg=#0000CC
 hi Special      ctermfg=126  guibg=none guifg=#af0087
 hi Search       cterm=underline ctermbg=228 ctermfg=236 guibg=#fffa5c guifg=#342727
 hi Delimiter    ctermfg=126  guibg=none guifg=#af0087
-hi parens       ctermfg=016  guibg=none guifg=#000
+hi parens       ctermfg=016  guibg=none guifg=#000000
+hi Directory    ctermfg=0 guifg=#000000
 
 
 " Python
