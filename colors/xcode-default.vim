@@ -16,9 +16,9 @@ let colors_name = "xcode default"
 
 " Vim >= 7.0 specific colours
 if version >= 700
-  hi cursorline   cterm=none  ctermbg=255   ctermfg=none  guibg=#ebe7e3 guifg=none gui=none
+  hi cursorline   cterm=none  ctermbg=255   ctermfg=none  guibg=#fbf7f2 guifg=none gui=none
   hi CursorColumn ctermbg=236 guibg=none    guifg=none gui=none
-  hi CursorLineNr ctermbg=236 gui=none guibg=#ebe7e3 guifg=#000000
+  hi CursorLineNr ctermbg=236 gui=none guibg=#fbf7f2 guifg=#000000
   hi MatchParen   cterm=NONE  ctermfg=0     ctermbg=220   guibg=#fffa5c guifg=#342727 gui=none
   hi Pmenu        ctermfg=016 ctermbg=255   guibg=#f8f8f8 guifg=#000000 gui=none
   hi PmenuSel     ctermfg=016 ctermbg=253   guibg=#dadada guifg=#000000 gui=none
