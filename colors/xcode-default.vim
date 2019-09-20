@@ -101,10 +101,10 @@ hi javascriptObjectLabel ctermfg=016 gui=none
 hi htmlArg ctermfg=030 gui=none
 hi htmlString ctermfg=020 gui=none
 hi htmlComment ctermfg=28 gui=none
-hi link htmlCommentPart htmlCommen gui=nonet
+hi link htmlCommentPart htmlCommen
 hi htmlTag ctermfg=244 gui=none
-hi link htmlTagN htmlTag gui=none
-hi link htmlEndTag htmlTag gui=none
+hi link htmlTagN htmlTag
+hi link htmlEndTag htmlTag
 
 " NerdTree
 hi NerdTreeDirSlash cterm=NONE ctermfg=15 ctermbg=15 guibg=none guifg=#ffffff gui=none
