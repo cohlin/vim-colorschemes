@@ -76,7 +76,7 @@ hi pythonBoolean            ctermfg=126   guibg=none guifg=#990099
 hi pythonAttribute          ctermfg=137   guibg=none guifg=#996633
 hi pythonString             ctermfg=124   guibg=none guifg=#990000
 hi pythonQuotes             ctermfg=124   guibg=none guifg=#990000
-hi docstring                ctermfg=41   guibg=none guifg=#00CC00
+hi docstring                ctermfg=22   guibg=none guifg=#006600
 
 
 autocmd Filetype python call SetColors()
