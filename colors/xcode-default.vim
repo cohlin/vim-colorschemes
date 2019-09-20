@@ -16,6 +16,7 @@ let colors_name = "xcode default"
   
 " Vim >= 7.0 specific colours
 if version >= 700
+  hi cursorline   cterm=none ctermbg=255 ctermfg=none
   hi CursorColumn ctermbg=236
   hi MatchParen   cterm=NONE  ctermfg=016 ctermbg=226
   hi Pmenu        ctermfg=016 ctermbg=255
@@ -36,7 +37,6 @@ hi Title        ctermfg=016
 hi Visual       ctermfg=none   ctermbg=223
 hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=124
-hi cursorline   ctermbg=255 ctermfg=none
 
 " Syntax highlighting
 hi Comment      ctermfg=022
